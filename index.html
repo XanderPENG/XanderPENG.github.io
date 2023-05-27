@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <title>Zhenhan (Xander) PENG</title>
+    <meta name="google-site-verification" content="1ZzCtMkDwVIKsQKBey5lj8nfXJtHOSqguYBLvbOt5E8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Kerge - Resume / CV / vCard Template" />
+    <meta name="description" content="Research Scientist website" />
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
-    <meta name="author" content="lmpixels" />
+<!--    <meta name="author" content="lmpixels" />-->
     <link rel="shortcut icon" href="favicon.ico">
 
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -47,16 +48,16 @@
             <!-- Main menu -->
             <ul id="nav" class="site-main-menu">
               <li>
-                <a class="pt-trigger" href="#about-me">Home</a><!-- href value = data-id without # of .pt-page. -->
+                <a class="pt-trigger" href="#Home">Home</a><!-- href value = data-id without # of .pt-page. -->
               </li>
               <li>
-                <a class="pt-trigger" href="#resume">Experience</a>
+                <a class="pt-trigger" href="#Experience">Experience</a>
               </li>
               <li>
-                <a class="pt-trigger" href="#blog">Publication</a>
+                <a class="pt-trigger" href="#Publication">Publication</a>
               </li>
               <li>
-                <a id="nav-data-code" class="pt-trigger" href="#" onclick="inaccessDataCode()">Data & Code</a>
+                <a id="nav-data-code" class="pt-trigger" href="#Data-Code" onclick="inaccessDataCode()">Data & Code</a>
               </li>
 <!--              <li>-->
 <!--                <a class="pt-trigger" href="#portfolio" onclick="inaccessDataCode()">Data & Code</a>-->
@@ -140,7 +141,7 @@
           <div class="subpages">
 
             <!-- Home Subpage -->
-            <section class="pt-page" data-id="about-me">  <!-- Home page -->
+            <section class="pt-page" data-id="Home">  <!-- Home page -->
               <div class="section-inner start-page-full-width">
                 <div class="start-page-full-width">
                   <div class="row">
@@ -453,8 +454,8 @@
             </section>
             <!-- End of Home Subpage -->
 
-            <!-- Resume Subpage -->
-            <section class="pt-page" data-id="resume">
+            <!-- Experience Subpage -->
+            <section class="pt-page" data-id="Experience">
               <div class="section-inner custom-page-content">
                 <div class="section-title-block second-style">
                   <h2 class="section-title">Education & Experience</h2>
@@ -689,15 +690,15 @@
                 </div>
               </div>
             </section>
-            <!-- End of Resume Subpage -->
+            <!-- End of Experience Subpage -->
 
 
             <!-- Portfolio Subpage -->
-            <section class="pt-page" data-id="portfolio">
+            <section class="pt-page" data-id="Data-Code">
               <div class="section-inner custom-page-content">
                 <div class="section-title-block second-style">
                   <h2 class="section-title">Data & Code</h2>
-                  <h5 class="section-description">Journal and Conference papers</h5>
+                  <h5 class="section-description">Data and Codes used in projects and papers</h5>
                 </div>
 
 
@@ -712,28 +713,29 @@
                             <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
                           </li>
                           <li>
-                            <a class="filter btn btn-sm btn-link" data-group="category_media">Media</a>
+                            <a class="filter btn btn-sm btn-link" data-group="category_journal">Journal</a>
                           </li>
                           <li>
-                            <a class="filter btn btn-sm btn-link" data-group="category_mockups">Mockups</a>
+                            <a class="filter btn btn-sm btn-link" data-group="category_conference">Conference</a>
                           </li>
                           <li>
-                            <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>
+                            <a class="filter btn btn-sm btn-link" data-group="category_course">Course</a>
                           </li>
                           <li>
-                            <a class="filter btn btn-sm btn-link" data-group="category_vimeo-videos">Vimeo Videos</a>
+                            <a class="filter btn btn-sm btn-link" data-group="category_code">Code</a>
                           </li>
                           <li>
-                            <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube Videos</a>
+                            <a class="filter btn btn-sm btn-link" data-group="category_data">Data</a>
                           </li>
                         </ul>
 
                         <!-- Portfolio Grid -->
                         <div class="portfolio-grid three-columns">
                           
-                          <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
+                          <figure class="item lbaudio" data-groups='["category_all", "category_journal", "category_code", "category_data"]'>
                             <div class="portfolio-item-img">
-                              <img src="images/portfolio/1.jpg" alt="SoundCloud Audio" title="hao" />
+                              <img src="images/portfolio/smartcities-2023.webp" alt="SoundCloud Audio" title="hao"
+                                   width="20" height="40"/>
                               <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio"></a>
                             </div>
 
@@ -809,8 +811,8 @@
             </section>
             <!-- /Portfolio Subpage -->
 
-            <!-- Blog Subpage -->
-            <section class="pt-page" data-id="blog">
+            <!-- Publication Subpage -->
+            <section class="pt-page" data-id="Publication">
               <div class="section-inner custom-page-content">
                 <div class="section-title-block second-style">
                   <h2 class="section-title">Publication</h2>
