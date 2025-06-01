@@ -36,7 +36,7 @@
       <header id="site_header" class="header mobile-menu-hide">
         <div class="header-content clearfix">
           <div class="my-photo">
-            <img src="images/XP-selfie.JPG" alt="image">  <!-- personal photo -->
+            <img src="images/selfie-side.jpg" alt="image">  <!-- personal photo -->
           </div>
 
           <div class="site-title-block">
@@ -85,14 +85,26 @@
           <div class="social-links">
 
 <!--            <a onclick="wechatAlert()"><i class="fa-brands fa-github"></i></a>-->
-            <a href="https://www.researchgate.net/profile/Zhenhan-Peng" target="_blank"><i class="fab fa-researchgate"></i></a>
-            <a href="https://orcid.org/0000-0003-3744-4513" target="_blank"><i class="fa-brands fa-orcid"></i></a>
-            <a href="https://scholar.google.com/citations?user=qepvvhcAAAAJ&hl=zh-CN" target="_blank"><i class="fa-brands fa-google"></i></a>
-            <a href="mailto:zhenhan-xander.peng@polyu.edu.hk" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        <!-- First Row -->
+            <div style="margin-bottom: 15px;">
+              <a href="https://www.researchgate.net/profile/Zhenhan-Peng" target="_blank"><i class="fab fa-researchgate"></i></a>
+              <a href="https://orcid.org/0000-0003-3744-4513" target="_blank"><i class="fa-brands fa-orcid"></i></a>
+              <a href="https://scholar.google.com/citations?user=qepvvhcAAAAJ&hl=zh-CN" target="_blank"><i class="fa-brands fa-google"></i></a>
+              <a href="mailto:zhenhan.peng@connect.polyu.hk" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            
+            <!-- Second Row -->
+            <div>
+              <a href="https://github.com/XanderPENG" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="www.linkedin.com/in/zhenhan-p-778a56204" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://x.com/Xander_Peng" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.kuleuven.be/wieiswie/en/person/00170031" target="_blank"><i class="fa-solid fa-university"></i></a>
+            </div>
+            
             <script>
               function wechatAlert()
               {
-                alert("Sorry! Please contact me via email: zhenhan-xander.peng@polyu.edu.hk");
+                alert("Sorry! Please contact me via email: zhenhan.peng@connect.polyu.hk");
               }
             </script>
 
@@ -102,7 +114,7 @@
           <!-- Copyrights -->
           <div class="copyrights">
             <p>
-              Last update: <br> April 2024
+              Last update: <br> May 2025
             </p>
           </div>
           <!-- / Copyrights -->
@@ -115,7 +127,7 @@
         <div class="mobile-logo-container">
           <div class="mobile-header-image">
             <a href="#">
-                <img src="images/XP-selfie.JPG" alt="image">
+                <img src="images/selfie-side.jpg" alt="image">
             </a>
           </div>
           <div class="mobile-site-title"><a href="#">Zhenhan (Xander) PENG</a></div>
@@ -159,7 +171,7 @@
                           <!-- Text rotation / Subtitle -->
                           <div class="owl-carousel text-rotation">                                    
                             <div class="item">
-                              <div class="sp-subtitle">PhD Student</div>
+                              <div class="sp-subtitle">Ph.D. Researcher</div>
                             </div>
                             <div class="item">
                               <div class="sp-subtitle">MSc., BSc.</div>
@@ -168,23 +180,32 @@
                           <!-- /Text rotation / Subtitle -->
 
                           <h2 class="hp-main-title" style="font-size: 30px">Zhenhan (Xander) PENG</h2>
-                          <p style="font-size: 16px; text-align: justify">I am currently a PhD student at
+                          <p style="font-size: 16px; text-align: justify">I am currently a Ph.D. researcher at
                             <a href="https://www.mech.kuleuven.be/en/cib" target="_blank" style="font-style: italic"> Centre for Industrial
                               Management / Traffic and Infrastructure (CIB) </a>,
                             <a href="https://www.kuleuven.be/kuleuven/" target="_blank" style="font-style: italic"> KU Leuven </a>
                             under the supervision of <em style="font-weight: bold"> Prof. Johan Joubert. </em>
                             Meanwhile, I also work as a Part-time Research Assistant at
                             <a href="https://thetipteam.editorx.io/website" target="_blank" style="font-style: italic"> The TIP Research Group,
-                              Dept. LSGI, The Hong Kong Polytechnic University (PolyU) </a>
+                              Dept. LSGI, The Hong Kong Polytechnic University (PolyU). </a>
+                            Before pursuing my Ph.D. at KU Leuven, I received my master's degree in Geomatics from PolyU and
+                            bachelor's degree in Land Resources Management from Southwest University, respectively.
                           </p>
                           <p style="font-size: 16px; text-align: justify">
-                            My research work focuses on the urban freight modelling, large-scale micro-simulation,
-                            deployment of electric vehicle (EV) infrastructure,
-                            modelling complex charging behavior of EV users, fuel options for electric mobility, and
-                            spatial big data analysis,
+                            My research interests include:
+                            <ul style="list-style-type: square; padding: 0">
+                              <li>Collaborative urban freight modelling</li>
+                              <li>Large-scale micro-simulation</li>
+                              <li>Agent-based modelling (primarily MATSim)</li>
+                              <li>EV charging infrastructure optimization</li>
+                              <li>Transport accessibility and equity</li>
+                              <li>Spatial big data analysis</li>
+                            </ul>
+                          </p>
+                          <p style="font-size: 16px; text-align: justify">
+                            I am passionate about applying data-driven and micro-simulation approaches to address real-world transportation challenges,
                             aiming to provide insights into urban logistics, smart mobility, and electrification of transportation.
-                            Before pursuing my PhD at KU Leuven, I received my master's degree in Geomatics from PolyU and
-                            bachelor's degree in Land Resource Management from Southwest University, respectively.</p>
+                          </p>
                           <div class="hp-buttons">
                             <a onclick="cvAlert() " href="#"  class="btn btn-primary">Download CV</a>
                             <script>
@@ -483,13 +504,13 @@
                           <div class="timeline-item clearfix">
                             <div class="left-part">
                               <h5 class="item-period">2024 - Present</h5>
-                              <span class="item-company">PhD</span>
+                              <span class="item-company">Ph.D.</span>
                             </div>
                             <div class="divider"></div>
                             <div class="right-part">
-                              <h4 class="item-title">Engineering Science: Mechanical Engineering</h4>
+                              <h4 class="item-title">Engineering Science: Mechanical Engineering (Transportation) </h4>
                               <p>
-                                KU Leuven
+                                CIB, KU Leuven
 
                               </p>
 
@@ -505,7 +526,7 @@
                             <div class="right-part">
                               <h4 class="item-title">Geomatics (geographic information systems)</h4>
                               <p> <span style="font-style: italic"> Graduated with Distinction </span> <br>
-                                The Hong Kong Polytechnic University
+                                LSGI, The Hong Kong Polytechnic University
 
                               </p>
 
@@ -520,7 +541,7 @@
                             <div class="divider"></div>
                             <div class="right-part">
                               <h4 class="item-title">Land Resource Management</h4>
-                              <p> Southwest University </p>
+                              <p> School of Resources and Environment, Southwest University </p>
                             </div>
                           </div>
                         </div>
@@ -581,9 +602,16 @@
                               <p>Data analysis and visualisation using Python and MYSQL</p>
                             </div>
                           </div>
+                        
+                        <!-- <div class="block-title">
+                            <h3>Academic performance<span></span></h3>
+                        </div> -->
+
                         </div>
                       </div>
                     </div>
+
+                  
 
                     <div class="col-xs-12 col-sm-4">
                       <div class="col-inner">
@@ -953,19 +981,32 @@
                   <hr style="border: 1px; border-top: 3px double #d0d0d5;
                       padding-top: 1px; margin-top: 1px ">
                   <ul>
-
+                    <p style="font-style: italic"> Note: <sup>*</sup> is the corresponding author, <sup>#</sup> is the co-first author
+                    </p>
+                    
+                    <li>
+                      <h4 style="text-align: justify"> Public Attention and Attitudes towards Bike-sharing in China: A text Mining Approach
+                      </h4>
+                      <p>
+                        Yuan Li, Shengyou Wang, JHCG Tang, <span style="font-weight: bold"> Zhenhan Peng</span>, Chengxiang Zhuge<sup>*</sup>, <br>
+                        <span style="font-style: italic; font-weight: bold">
+                          Transportation Research Part D: Transport and Environment</span>
+                        <a href="https://doi.org/10.1016/j.trd.2024.104348" target="_blank">
+                           DOI:10.1016/j.trd.2024.104348</a>
+                      </p>
+                    </li>
 
                     <li>
                       <h4 style="text-align: justify"> Fuel and Infrastructure Options for Electrifying Public Transit:
-                        A Data-driven Micro-simulation Approach (under review)
+                        A Data-driven Micro-simulation Approach
                       </h4>
                       <p>
-<!--                        <span style="font-weight: bold"> Zhenhan Peng</span>, Zhuowei wang,-->
-<!--                        Shiqi Wang, Anthony Chen, Chengxiang Zhuge<sup>*</sup>, <br>-->
+                       <span style="font-weight: bold"> Zhenhan Peng</span>, Zhuowei wang,
+                        Shiqi Wang, Anthony Chen, Chengxiang Zhuge<sup>*</sup>, <br>
                         <span style="font-style: italic; font-weight: bold">
                           Applied Energy</span>
-<!--                        <a href="https://doi.org/10.3390/smartcities6030070" target="_blank">-->
-<!--                          DOI:10.3390/smartcities6030070</a>-->
+                        <a href="https://doi.org/10.1016/j.apenergy.2024.123577" target="_blank">
+                           DOI:10.1016/j.apenergy.2024.123577</a>
                       </p>
                     </li>
 
@@ -978,8 +1019,8 @@
                         Xiong Yang, Anthony Chen, Chengxiang Zhuge<sup>*</sup>, <br>
                         <span style="font-style: italic; font-weight: bold">
                           Transportation Research Part D: Transport and Environment</span>
-                        <!--                        <a href="https://doi.org/10.3390/smartcities6030070" target="_blank">-->
-                        <!--                          DOI:10.3390/smartcities6030070</a>-->
+                        <a href="https://doi.org/10.1016/j.trd.2023.103990" target="_blank">
+                          DOI:10.1016/j.trd.2023.103990</a>
                       </p>
                     </li>
 
@@ -992,8 +1033,8 @@
                         Pinxi Wang, Chengxiang Zhuge<sup>*</sup>, <br>
                         <span style="font-style: italic; font-weight: bold">
                           Energy</span>
-                        <!--                        <a href="https://doi.org/10.3390/smartcities6030070" target="_blank">-->
-                        <!--                          DOI:10.3390/smartcities6030070</a>-->
+                        <a href="https://doi.org/10.1016/j.energy.2023.128230" target="_blank">
+                          DOI:10.1016/j.energy.2023.128230</a>
                       </p>
                     </li>
 
@@ -1006,8 +1047,8 @@
                         Anthony Chen, Chengxiang Zhuge<sup>*</sup>, <br>
                         <span style="font-style: italic; font-weight: bold">
                           Applied Energy</span>
-                        <!--                        <a href="https://doi.org/10.3390/smartcities6030070" target="_blank">-->
-                        <!--                          DOI:10.3390/smartcities6030070</a>-->
+                        <a href="https://doi.org/10.1016/j.apenergy.2023.121452" target="_blank">
+                          DOI:10.1016/j.apenergy.2023.121452</a>
                       </p>
                     </li>
 
@@ -1028,10 +1069,37 @@
                   </ul>
                   <br>
                   <h3 style="font-style: italic; font-size: 23px;
-                      padding-bottom: 1px; margin-bottom: 1px"> Conference Paper </h3>
+                      padding-bottom: 1px; margin-bottom: 1px"> Conference/Workshop </h3>
                   <hr style="border: 1px; border-top: 3px double #d0d0d5;
                       padding-top: 1px; margin-top: 1px ">
                   <ul>
+                    
+                    <li>
+                      <h4 style="text-align: justify"> Are Cargo Bikes a Truly Viable Alternative? An Agent-Based Modeling Approach to Evaluate Its Lifecycle Impacts. 
+                      </h4>
+                      <p>
+                        <span style="font-weight: bold"> Zhenhan Peng</span><sup>*</sup>, Johan W. Joubert<br>
+                        <!-- <span style="font-style: italic"> Best Presentation Award </span> <br> -->
+                        <span style="font-style: italic; font-weight: bold">
+                          Transportation Research symposium 2025</span>
+                        <!--                        <a href="https://doi.org/10.3390/smartcities6030070" target="_blank">-->
+                        <!--                          DOI:10.3390/smartcities6030070</a>-->
+                      </p>
+                    </li>
+
+                    <li>
+                      <h4 style="text-align: justify"> Urban freight impact of restricted access: A Case Study of Leuven.
+                      </h4>
+                      <p>
+                        <span style="font-weight: bold"> Zhenhan Peng</span><sup>*</sup>, Johan W. Joubert<br>
+                        <!-- <span style="font-style: italic"> Best Presentation Award </span> <br> -->
+                        <span style="font-style: italic; font-weight: bold">
+                          City Logistics 2025</span>
+                        <!--                        <a href="https://doi.org/10.3390/smartcities6030070" target="_blank">-->
+                        <!--                          DOI:10.3390/smartcities6030070</a>-->
+                      </p>
+                    </li>
+
                     <li>
                       <h4 style="text-align: justify"> Fuel and Infrastructure Options for Electrifying Public Transit:
                         A Data-driven Micro-simulation Approach

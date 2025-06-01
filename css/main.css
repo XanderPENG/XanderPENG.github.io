@@ -678,7 +678,8 @@ blockquote {
 }
 
 .section-inner.start-page-full-width .inner-content .fill-block {
-  background-image: url(../images/XP-selfie.JPG);
+  background-image: url(../images/selfie-side.jpg);
+  /* background-size: 50%; /* Reduces the image size to 80% */
 }
 .section-inner.start-page-full-width .inner-content .fill-block {
   position: relative;
